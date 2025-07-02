@@ -98,7 +98,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header
-st.title("📱 ECE Student Companion App (New Updates - 1st July 2025)")
+st.title("📱 ECE Student Companion App (Latest Updates - 1st July 2025)")
 st.subheader("Your go-to app offering easy access to lab manuals, virtual labs, and skill-building resources.")
 
 # App description
@@ -138,7 +138,7 @@ with col2:
              use_column_width=True)
 
 st.download_button(label="Click Here To Download",
-                       data=open("studentcompanion.apk", "rb").read(),
+                       data=open("labcompanion_v2.apk", "rb").read(),
                        # Change "labcompanion.apk" to the name of your APK file
                        file_name="studentcompanion.apk",
                        mime="application/vnd.android.package-archive", )
