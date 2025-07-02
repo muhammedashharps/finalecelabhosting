@@ -143,7 +143,7 @@ st.download_button(label="Click Here To Download",
                    file_name="labappv2.apk",
                    mime="application/vnd.android.package-archive", )
 
-# Additional information
+# Additional informationgit status
 st.divider()
 
 # Add a border above the warning
