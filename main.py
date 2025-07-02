@@ -98,7 +98,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Header
-st.title("📱 ECE Lab Companion App")
+st.title("📱 ECE Lab Companion App (New Updates - July 1st 2025)")
 st.subheader("Your go-to app offering easy access to lab manuals, virtual labs, and skill-building resources.")
 
 # App description
