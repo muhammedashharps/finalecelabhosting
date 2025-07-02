@@ -138,7 +138,7 @@ with col2:
              use_column_width=True)
 
 st.download_button(label="Click Here To Download",
-                   data=open("labv2.apk", "rb").read(),
+                   data=open("labappv2.apk", "rb").read(),
                    # Change "labcompanion.apk" to the name of your APK file
                    file_name="studentcompanion.apk",
                    mime="application/vnd.android.package-archive", )
