@@ -99,7 +99,7 @@ st.markdown("""
 
 # Header
 
-st.title("📱 ECE Lab Companion App (New Updates - July 1st 2025)")
+
 
 st.title("📱 ECE Student Companion App (Latest Updates - 1st July 2025)")
 
