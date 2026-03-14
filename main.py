@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Download ECE Lab Companion App",
+    page_title="Download the New ECE Lab Companion App",
     page_icon="📱",
     layout="wide"
 )
@@ -101,9 +101,9 @@ st.markdown("""
 
 
 
-st.title("📱 ECE Student Companion App (Latest Updates - 1st July 2025)")
+st.title("📱 ECE Student Companion App (Latest Updates - 15th March 2026)")
 
-st.subheader("Your go-to app offering easy access to lab manuals, virtual labs, and skill-building resources.")
+st.subheader("Your go to app offering easy access to lab manuals, placement resources, and skill-building resources.")
 
 # App description
 
@@ -117,7 +117,7 @@ with col1:
 
     features = [
         ("📘 Lab Manuals", ""),
-        ("🔬 Virtual Labs", ""),
+        ("🔬 Placement Resources(New)", ""),
         ("📝 Exam Preparation", ""),
         ("🛠️ Project Ideas", ""),
         ("📊 Practical Electronics Resources", "")
@@ -138,7 +138,7 @@ with col1:
 
 with col2:
     # Placeholder for app screenshot
-    st.image("appphoto.png", caption="ECE Lab Companion App",
+    st.image("home1-left.png", caption="ECE Lab Companion App",
              use_column_width=True)
 
 st.download_button(label="Click Here To Download",
@@ -154,7 +154,7 @@ st.divider()
 st.markdown('<div class="border"></div>', unsafe_allow_html=True)
 
 # Warning message
-st.markdown('<div class="warning-text">If you encounter any errors while installing the app, please contact us at ecelabcompanion@gmail.com, muhammedashharps@gmail.com</div>', unsafe_allow_html=True)
+st.markdown('<div class="warning-text">If you encounter any errors while installing the app, please contact us at ececompanion@gmail.com</div>', unsafe_allow_html=True)
 
 # Footer
 st.markdown("---")
